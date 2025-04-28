@@ -71,8 +71,8 @@ public class ArrayListClass {
     // 리스트에서 지정된 값의 첫 번째 인덱스를 반환합니다.
     // 시간 복잡도: O(n) (리스트를 순차적으로 검색)
     // 예외 발생: NullPointerException - arrayList가 null인 경우
-    public int indexOf(int index) {
-        return this.arrayList.indexOf(index);
+    public int indexOf(int value) {
+        return this.arrayList.indexOf(value);
     }
 
     // 리스트의 모든 요소를 제거합니다.
